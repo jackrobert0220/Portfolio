@@ -13,7 +13,7 @@ export default function Topbar( { menuOpen, setMenuOpen }) {
                 <span>jackrobert0220@gmail.com</span>
               </div>
           </div>
-          <h1>Hello</h1>
+
           <div className="right">
             <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
               <span className="line1"></span>
