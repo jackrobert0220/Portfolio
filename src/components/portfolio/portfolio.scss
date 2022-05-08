@@ -41,7 +41,9 @@
             h3 {
                 position: absolute;
                 font-size: 20px;
-
+                margin-left: 40px;
+                margin-right: 40px;
+                text-shadow: 1px 1px 2px black;
             }
 
             img {
@@ -51,11 +53,31 @@
                 z-index: 1;
             }
 
+            .iconApp {
+                display: none;
+            }
+            .iconGit {
+                display: none;
+            }
+
+            
             &:hover {
                 background-color: $mainColor;
                 img {
-                    opacity: 0.2;
+                    opacity: 0.5;
                     z-index: 0;
+                }
+                .iconApp {
+                    display: flex;
+                    z-index: 2;
+                    width: 40px;
+                    height: 40px;
+                }
+                .iconGit {
+                    display: flex;
+                    z-index: 2;
+                    width: 40px;
+                    height: 40px;
                 }
             }
         }

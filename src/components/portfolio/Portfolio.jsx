@@ -2,8 +2,8 @@ import "./portfolio.scss"
 import PortfolioList from "../portfolioList/PortfolioList";
 import { useEffect, useState } from "react"
 import { featuredPortfolio } from "../../data"
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import TouchAppIcon from '@mui/icons-material/TouchApp';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TouchAppIcon from '@mui/icons-material/TouchApp';
 
 
 export default function Portfolio() {
@@ -53,14 +53,18 @@ export default function Portfolio() {
         <div className="container">
         {data.map((d) => (
           <div className="item">
+            <TouchAppIcon className="iconApp"
+                          onClick={() => 
+                          window.open(`${d.link}`, "_blank")}
+            />
             <img 
                 src={d.img}
                 alt=""/>
             <h3>{d.title}</h3>
-            {/* <TouchAppIcon className="iconApp"
-              onClick={() => window.open(`${d.link}`, "_blank")}
-            /> */}
-            {/* <GitHubIcon className="iconGit"/> */}
+            <GitHubIcon className="iconGit"
+                        onClick={() => 
+                        window.open(`${d.git}`, "_blank")}
+            />
           </div>
         ))}
         </div>
