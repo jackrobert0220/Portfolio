@@ -15,7 +15,7 @@ export default function Contact() {
         </div>
         <div className="right">
           <h2>Contact Me...</h2>
-            <div className="emailContainer">
+            <div className="linkContainer">
             <Mail className="icon"
                     onClick={() => 
                             window.open(`mailto:jackrobert0220@gmail.com`, "_blank")}
@@ -23,7 +23,7 @@ export default function Contact() {
             <span className="email" onClick={() => 
                       window.open(`mailto:jackrobert0220@gmail.com`, "_blank")}>jackrobert0220@gmail.com</span>
             </div>         
-            <div className="instaContainer">
+            <div className="linkContainer">
               <LinkedInIcon className="icon"
                       onClick={() => 
                               window.open(`https://www.linkedin.com/in/jack-glazer/`, "_blank")}
@@ -31,7 +31,7 @@ export default function Contact() {
               <span onClick={() => 
                               window.open(`https://www.linkedin.com/in/jack-glazer/`, "_blank")}>Jack Glazer</span>
             </div>
-            <div className="twitterContainer">
+            <div className="linkContainer">
               <GitHubIcon className="icon"
                       onClick={() => 
                               window.open(`https://github.com/jackrobert0220`, "_blank")}
@@ -39,7 +39,7 @@ export default function Contact() {
               <span onClick={() => 
                               window.open(`https://github.com/jackrobert0220`, "_blank")}>Jack Glazer</span>
             </div> 
-            <div className="twitterContainer">
+            <div className="linkContainer">
               <TwitterIcon className="icon"
                       onClick={() => 
                               window.open(`https://twitter.com/jackglazzzer`, "_blank")}
@@ -47,7 +47,7 @@ export default function Contact() {
               <span onClick={() => 
                               window.open(`https://twitter.com/jackglazzzer`, "_blank")}>jackglazzzer</span>
             </div> 
-            <div className="instaContainer">
+            <div className="linkContainer">
               <InstagramIcon className="icon"
                       onClick={() => 
                               window.open(`https://instagram.com/jackglazzzer`, "_blank")}

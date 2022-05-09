@@ -21,45 +21,7 @@
         
         
 
-        .emailContainer {
-            display: flex;
-            align-items: center;
-            margin-left: 30px;
-            margin-bottom: 20px;
-
-            .icon {
-                font-size: 35px;
-                margin-right: 5px;
-                cursor: pointer;
-            }
-
-            span {
-                font-size: 30px;
-                font-weight: 500;
-                cursor: pointer;
-            }
-        }
-
-        .twitterContainer {
-            display: flex;
-            align-items: center;
-            margin-left: 30px;
-            margin-bottom: 20px;
-
-            .icon {
-                font-size: 35px;
-                margin-right: 5px;
-                cursor: pointer;
-            }
-
-            span {
-                font-size: 30px;
-                font-weight: 500;
-                cursor: pointer;
-            }
-        }
-
-        .instaContainer {
+        .linkContainer {
             display: flex;
             align-items: center;
             margin-left: 30px;
