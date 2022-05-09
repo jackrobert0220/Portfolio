@@ -9,8 +9,12 @@ export default function Topbar( { menuOpen, setMenuOpen }) {
           <div className="left">
             <a href="#intro" className="logo">&lt;/&gt;</a>
               <div className="itemContainer">
-                <Mail className="icon"/>
-                <span>jackrobert0220@gmail.com</span>
+                <Mail className="icon"
+                  onClick={() => 
+                          window.open(`mailto:jackrobert0220@gmail.com`, "_blank")}
+                />
+                <span classNasme="email" onClick={() => 
+                          window.open(`mailto:jackrobert0220@gmail.com`, "_blank")}>jackrobert0220@gmail.com</span>
               </div>
           </div>
 
