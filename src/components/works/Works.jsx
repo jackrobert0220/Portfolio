@@ -1,7 +1,6 @@
   import { useState } from 'react'
   import "./works.scss"
 
-
 export default function Works() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -52,6 +51,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
+                  <span>Featured Works</span>
                 </div>
               </div>
               <div className="right">
