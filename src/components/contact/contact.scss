@@ -1,6 +1,12 @@
+@import "../../global.scss";
+
 .contact {
     background-color: white;
     display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
 
     .left {
         flex: 1;
@@ -27,6 +33,10 @@
             margin-left: 30px;
             margin-bottom: 20px;
 
+            @include mobile{
+                margin: 10px;
+            }
+
             .icon {
                 font-size: 35px;
                 margin-right: 5px;
@@ -37,6 +47,10 @@
                 font-size: 30px;
                 font-weight: 500;
                 cursor: pointer;
+
+                @include mobile{
+                    font-size: 20px;
+                }
             }
         
         }

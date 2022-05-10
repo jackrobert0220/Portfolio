@@ -59,7 +59,7 @@
                 @include mobile{
                     width: 90%;
                     height: 180px;
-                    margin: 5px 0;
+                    margin: 15px 0;
                 }
 
                 .left {
@@ -129,6 +129,10 @@
                     img {
                         width: 400px;
                         transform: rotate(-10deg);
+
+                        @include mobile{
+                            width: 200px;
+                        }
                     }
                 }
             }
